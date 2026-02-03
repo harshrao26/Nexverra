@@ -31,10 +31,13 @@ export default function Footer() {
                     {/* Brand Column */}
                     <div className="space-y-6">
                         <div className="flex items-center gap-2">
-                            <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-500 rounded-lg flex items-center justify-center">
-                                <div className="w-4 h-4 bg-white rounded-sm transform rotate-45"></div>
-                            </div>
-                            <span className="text-white font-semibold text-xl">Nexverra</span>
+                            <Image
+                                src="/logoo.png"
+                                alt="Nexverra Logo"
+                                width={150}
+                                height={40}
+                                className="object-contain"
+                            />
                         </div>
                         <p className="text-white/60 text-sm leading-relaxed max-w-xs">
                             Full-stack digital solutions for scalable business growth.
@@ -99,7 +102,7 @@ export default function Footer() {
                 </div>
 
                 <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-                    <p className="text-white/40 text-sm">© 2026 Nexverra Inc. All rights reserved.</p>
+                    <p className="text-white/40 text-sm">© 2026 Nexverra. All rights reserved.</p>
                     <div className="flex gap-8">
                         <a href="#" className="text-white/40 hover:text-white transition-colors text-sm">Privacy Policy</a>
                         <a href="#" className="text-white/40 hover:text-white transition-colors text-sm">Terms of Service</a>
