@@ -75,15 +75,20 @@ function ThankYouContent() {
           </div>
         </div>
       </main>
-
-    
     </div>
   );
 }
 
 export default function ThankYou() {
   return (
-   
+    <Suspense
+      fallback={
+        <div className="h-screen bg-black flex items-center justify-center">
+          <div className="text-white">Loading...</div>
+        </div>
+      }
+    >
       <ThankYouContent />
-   );
+    </Suspense>
+  );
 }

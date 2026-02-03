@@ -4,7 +4,7 @@ We specialize in building robust software solutions, data-driven platforms, and 
 At Nexverra Technologies, we believe in:
 • Innovation with purpose
 • Quality-driven development
-• Transparency and trust
+• Transparency and 
 • Long-term client partnerships
 Our mission is to bridge the gap between business challenges and technology solutions through intelligent design, automation, and data-driven insights.
  

@@ -32,7 +32,7 @@ export default function FAQ() {
     ];
 
     return (
-        <section className="bg-transparent py-24 relative overf low-hidden">
+        <section className="bg-transparent py-24 relative overflow-hidden">
             
             <div className="absolute inset-0 z-0 bottom-80 ">
                 <Image
